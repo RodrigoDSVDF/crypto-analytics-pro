@@ -33,7 +33,7 @@ st.components.v1.html(
 
 # Header principal
 st.title('Análise Profissional de Criptomoedas')
-st.markdown("""
+st.markdown(""" 
 **Plataforma de Análise Técnica Avançada**  
 Dados em tempo real via Binance API • Atualização contínua
 """)
@@ -61,14 +61,14 @@ else:
     st.stop()
 
 # Criação das abas
-tabs = st.tabs([
-    '📅 Série Temporal',
+tabs = st.tabs([ 
+    '📅 Série Temporal', 
     '📈 Análise Técnica', 
     '📊 Order Book', 
     '🌡️ Volatilidade', 
-    '🔗 Correlações',
-    '📌 Insights',
-    '📉 Risco-Retorno'
+    '🔗 Correlações', 
+    '📌 Insights', 
+    '📉 Risco-Retorno' 
 ])
 
 # Renderização das abas
