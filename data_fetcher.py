@@ -26,4 +26,4 @@ def fetch_order_book(symbol, limit=100):
         return exchange.fetch_order_book(symbol, limit=limit)
     except Exception as e:
         st.error(f"Erro no order book: {str(e)}")
-        return None
+        return None 
